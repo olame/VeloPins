@@ -1,0 +1,428 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		29E618281AE5B4F7002F7673 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29E618271AE5B4F7002F7673 /* AppDelegate.swift */; };
+		29E6182A1AE5B4F7002F7673 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29E618291AE5B4F7002F7673 /* FirstViewController.swift */; };
+		29E6182C1AE5B4F7002F7673 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29E6182B1AE5B4F7002F7673 /* SecondViewController.swift */; };
+		29E6182F1AE5B4F7002F7673 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29E6182D1AE5B4F7002F7673 /* Main.storyboard */; };
+		29E618311AE5B4F7002F7673 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29E618301AE5B4F7002F7673 /* Images.xcassets */; };
+		29E618341AE5B4F7002F7673 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 29E618321AE5B4F7002F7673 /* LaunchScreen.xib */; };
+		29E618401AE5B4F8002F7673 /* VeloPinsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29E6183F1AE5B4F8002F7673 /* VeloPinsTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		29E6183A1AE5B4F8002F7673 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29E6181A1AE5B4F7002F7673 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 29E618211AE5B4F7002F7673;
+			remoteInfo = VeloPins;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		29E618221AE5B4F7002F7673 /* VeloPins.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VeloPins.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		29E618261AE5B4F7002F7673 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		29E618271AE5B4F7002F7673 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		29E618291AE5B4F7002F7673 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		29E6182B1AE5B4F7002F7673 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		29E6182E1AE5B4F7002F7673 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		29E618301AE5B4F7002F7673 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		29E618331AE5B4F7002F7673 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		29E618391AE5B4F8002F7673 /* VeloPinsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VeloPinsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		29E6183E1AE5B4F8002F7673 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		29E6183F1AE5B4F8002F7673 /* VeloPinsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VeloPinsTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		29E6181F1AE5B4F7002F7673 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29E618361AE5B4F8002F7673 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		29E618191AE5B4F7002F7673 = {
+			isa = PBXGroup;
+			children = (
+				29E618241AE5B4F7002F7673 /* VeloPins */,
+				29E6183C1AE5B4F8002F7673 /* VeloPinsTests */,
+				29E618231AE5B4F7002F7673 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		29E618231AE5B4F7002F7673 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				29E618221AE5B4F7002F7673 /* VeloPins.app */,
+				29E618391AE5B4F8002F7673 /* VeloPinsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29E618241AE5B4F7002F7673 /* VeloPins */ = {
+			isa = PBXGroup;
+			children = (
+				29E618271AE5B4F7002F7673 /* AppDelegate.swift */,
+				29E618291AE5B4F7002F7673 /* FirstViewController.swift */,
+				29E6182B1AE5B4F7002F7673 /* SecondViewController.swift */,
+				29E6182D1AE5B4F7002F7673 /* Main.storyboard */,
+				29E618301AE5B4F7002F7673 /* Images.xcassets */,
+				29E618321AE5B4F7002F7673 /* LaunchScreen.xib */,
+				29E618251AE5B4F7002F7673 /* Supporting Files */,
+			);
+			path = VeloPins;
+			sourceTree = "<group>";
+		};
+		29E618251AE5B4F7002F7673 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				29E618261AE5B4F7002F7673 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		29E6183C1AE5B4F8002F7673 /* VeloPinsTests */ = {
+			isa = PBXGroup;
+			children = (
+				29E6183F1AE5B4F8002F7673 /* VeloPinsTests.swift */,
+				29E6183D1AE5B4F8002F7673 /* Supporting Files */,
+			);
+			path = VeloPinsTests;
+			sourceTree = "<group>";
+		};
+		29E6183D1AE5B4F8002F7673 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				29E6183E1AE5B4F8002F7673 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		29E618211AE5B4F7002F7673 /* VeloPins */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 29E618431AE5B4F8002F7673 /* Build configuration list for PBXNativeTarget "VeloPins" */;
+			buildPhases = (
+				29E6181E1AE5B4F7002F7673 /* Sources */,
+				29E6181F1AE5B4F7002F7673 /* Frameworks */,
+				29E618201AE5B4F7002F7673 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VeloPins;
+			productName = VeloPins;
+			productReference = 29E618221AE5B4F7002F7673 /* VeloPins.app */;
+			productType = "com.apple.product-type.application";
+		};
+		29E618381AE5B4F8002F7673 /* VeloPinsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 29E618461AE5B4F8002F7673 /* Build configuration list for PBXNativeTarget "VeloPinsTests" */;
+			buildPhases = (
+				29E618351AE5B4F8002F7673 /* Sources */,
+				29E618361AE5B4F8002F7673 /* Frameworks */,
+				29E618371AE5B4F8002F7673 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				29E6183B1AE5B4F8002F7673 /* PBXTargetDependency */,
+			);
+			name = VeloPinsTests;
+			productName = VeloPinsTests;
+			productReference = 29E618391AE5B4F8002F7673 /* VeloPinsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29E6181A1AE5B4F7002F7673 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Olga Grineva";
+				TargetAttributes = {
+					29E618211AE5B4F7002F7673 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					29E618381AE5B4F8002F7673 = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = 29E618211AE5B4F7002F7673;
+					};
+				};
+			};
+			buildConfigurationList = 29E6181D1AE5B4F7002F7673 /* Build configuration list for PBXProject "VeloPins" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 29E618191AE5B4F7002F7673;
+			productRefGroup = 29E618231AE5B4F7002F7673 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				29E618211AE5B4F7002F7673 /* VeloPins */,
+				29E618381AE5B4F8002F7673 /* VeloPinsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		29E618201AE5B4F7002F7673 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29E6182F1AE5B4F7002F7673 /* Main.storyboard in Resources */,
+				29E618341AE5B4F7002F7673 /* LaunchScreen.xib in Resources */,
+				29E618311AE5B4F7002F7673 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29E618371AE5B4F8002F7673 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		29E6181E1AE5B4F7002F7673 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29E6182C1AE5B4F7002F7673 /* SecondViewController.swift in Sources */,
+				29E618281AE5B4F7002F7673 /* AppDelegate.swift in Sources */,
+				29E6182A1AE5B4F7002F7673 /* FirstViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29E618351AE5B4F8002F7673 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29E618401AE5B4F8002F7673 /* VeloPinsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		29E6183B1AE5B4F8002F7673 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 29E618211AE5B4F7002F7673 /* VeloPins */;
+			targetProxy = 29E6183A1AE5B4F8002F7673 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		29E6182D1AE5B4F7002F7673 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				29E6182E1AE5B4F7002F7673 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		29E618321AE5B4F7002F7673 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				29E618331AE5B4F7002F7673 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		29E618411AE5B4F8002F7673 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		29E618421AE5B4F8002F7673 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		29E618441AE5B4F8002F7673 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = VeloPins/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		29E618451AE5B4F8002F7673 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = VeloPins/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		29E618471AE5B4F8002F7673 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = VeloPinsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VeloPins.app/VeloPins";
+			};
+			name = Debug;
+		};
+		29E618481AE5B4F8002F7673 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = VeloPinsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VeloPins.app/VeloPins";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		29E6181D1AE5B4F7002F7673 /* Build configuration list for PBXProject "VeloPins" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29E618411AE5B4F8002F7673 /* Debug */,
+				29E618421AE5B4F8002F7673 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		29E618431AE5B4F8002F7673 /* Build configuration list for PBXNativeTarget "VeloPins" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29E618441AE5B4F8002F7673 /* Debug */,
+				29E618451AE5B4F8002F7673 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		29E618461AE5B4F8002F7673 /* Build configuration list for PBXNativeTarget "VeloPinsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29E618471AE5B4F8002F7673 /* Debug */,
+				29E618481AE5B4F8002F7673 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29E6181A1AE5B4F7002F7673 /* Project object */;
+}
